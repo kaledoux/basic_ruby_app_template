@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# require 'webmock/rspec'
+
 # load in all lib classes and modules
 base_dir = File.expand_path('../lib', __dir__)
 $LOAD_PATH.unshift(base_dir)
